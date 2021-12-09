@@ -4,6 +4,7 @@
   "description": "El mejor lugar para poder disfrutar del aroma de un cafe fresco por la manana hasta tu hogar o para recoger en sucursal listo para ti.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
