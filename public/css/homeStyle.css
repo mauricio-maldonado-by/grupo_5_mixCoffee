@@ -20,7 +20,7 @@
     }
     .nHome{
         display: flex;
-        width: 98.7;
+        width: 100%;
         flex-direction: row;
         list-style-type: none;
         height: 105px;
@@ -79,7 +79,7 @@
         font-weight: 300;
     }
     .nAviso{
-        width: 98.7;
+        width: 100%;
         height: 30px;
         margin: 0;
         color: white;
@@ -94,21 +94,23 @@
     }
 
     .capa{ 
-        width: 98.7vw;
-        height: 82vh;
+        object-fit: cover;
+        width: 100%;
+        height: 80vh;
         background-color: rgba(0, 0, 0, 0.822);
     }
     .capa2{
-        width: 98.7vw;
-        height: 82vh;
+        object-fit: cover;
+        width: 100%;
+        height: 80vh;
         background-color: rgba(0, 0, 0, 0.822);
     }
     #cta{
         min-height: 0px;
         min-width: 0px;
         object-fit: cover;
-        width: 98.7vw;
-        height: 82vh;
+        width: 100%;
+        height: 80vh;
         opacity: .3;
     }
     .mOpciones{
@@ -200,9 +202,9 @@
         display: flex;
         flex-direction: row;
         list-style-type: none;
-        top: -100px;
+        top: -95px;
         padding: 0;
-        width: 98.7;
+        width: 100%;
         height: 30vh;
         overflow: hidden;
     }
