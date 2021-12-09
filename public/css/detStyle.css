@@ -86,61 +86,54 @@
     text-align: center;
 
 }
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+}
 .prdDescripcion{
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
     background-color: rgb(34, 32, 32);
     box-shadow: rgb(0, 0, 0);   
     height: 850px;
-    width: 100%;
 }
 .cntPrd001{
-    position: relative;
-    left: 20px;
-    top: 20px;
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
     height: 700px;
-    width: 40%;
+    width: 100%;
 }
 #prd001{
-    position: relative;
-    left: 120px;
-    top: 50px;
     width: 300px;
     height: 400px;
+    margin: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
     border-style: solid;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 22px;
-    padding-right: 15px;;
     border-color: rgba(39, 39, 39, 0.61);
     box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.356);
     border-radius: 10px;
 }
 #listaPrd{
-    position: relative;
-    left: 5px;
-    top: 80px;
     list-style-type: none;
     box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.356);
 }
 #listaPrd li{
     float: left;
-    margin-left: 7px;
-    height: 50px;
-    width: 50px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-left: 22px;
-    padding-right: 15px;
     align-items: center;
+    margin: 5px;
+    padding: 15px;
     border-style: solid;
     border-color: rgba(39, 39, 39, 0.61);
     border-radius: 7px;
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.288);
 }
 #prd002,#prd003,#prd004,#prd005,#prd006{
-    position: relative;
     width: 40px;
     height: 70px;
     
@@ -151,18 +144,19 @@
 }
 
 .detalleProducto{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     border-radius: 15px;
     top: 20px;
     padding: 15px;
-    margin: 0;
+    margin-top: 15px;
+    margin-left: 50px;
     left: 650px;
     background-color: white;
     width: 50%;
     height: 700px;
 }
 #tituloProducto{
-    position: relative;
     color: rgba(22, 22, 22, 0.74);
     font-size: 55px;
     text-align: right;
@@ -171,7 +165,6 @@
     font-weight: 400;
 }
 #precioProducto{
-    position: relative;
     color: rgba(22, 22, 22, 0.74);
     font-size: 55px;
     text-align: right;
@@ -180,22 +173,18 @@
     font-weight: 400;
 }
 #disp{
-    position: relative;
     font-size: 30px;
     font-weight: 400;
 }
 #pers{
-    position: relative;
     left: 250px;
     text-align: center;
     font-size: 20px;
 }
 .coloresProducto{
-    position: relative;
     list-style-type: none;
 }
 .coloresProducto li{
-    position: relative;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.459);
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.212);
@@ -222,7 +211,6 @@
     list-style-type: none;
 }
 .tprod li{
-    position: relative;
     top: 10px;
     right: 30px;
     float: left;
@@ -242,7 +230,6 @@
     list-style-type: none; 
 }
 .bProd li{
-    position: relative;
     top: 30px;
     right: 30px;
     float: left;
@@ -259,8 +246,6 @@
 
 #politicasEnvio{
     margin: 15px;
-    position: absolute;
-    top: 590px;
     left: 15px;
 }
 #pEnvio{
