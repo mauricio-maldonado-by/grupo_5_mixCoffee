@@ -94,23 +94,27 @@
     }
 
     .capa{ 
+        position: relative;
         object-fit: cover;
         width: 100%;
         height: 80vh;
         background-color: rgba(0, 0, 0, 0.822);
     }
     .capa2{
+        position: relative;
         object-fit: cover;
         width: 100%;
         height: 80vh;
         background-color: rgba(0, 0, 0, 0.822);
     }
     #cta{
+        position: absolute;
+        top: 0;
         min-height: 0px;
         min-width: 0px;
         object-fit: cover;
         width: 100%;
-        height: 80vh;
+        height: 100%;
         opacity: .3;
     }
     .mOpciones{
@@ -198,14 +202,14 @@
         background-color: rgb(165, 42, 42);
     }
     .hCafe{
-        position: relative;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -1vh;
         display: flex;
         flex-direction: row;
         list-style-type: none;
-        top: -95px;
         padding: 0;
         width: 100%;
-        height: 30vh;
         overflow: hidden;
     }
     .hCafe li select{
@@ -217,10 +221,7 @@
     .hCafe li {
         float: left;
         margin-left: 0px;
-        position: relative;
-        bottom: 150px;
-        width: 16.5vw;
-        bottom: 0px;
+        width: 16.5%;
         padding-left: 1px;
         font-size: 15px;
     }
@@ -228,10 +229,10 @@
         margin-top: 0px;
         margin-left: 0px;
         color: rgba(255, 255, 255, 0.733);
-        text-align: center    ;
+        text-align: center;
         font-size: auto;
+        height: 14vh;
         width: 100%;
-        height: 105px;
         letter-spacing: 0.2em;
         font-weight: 50;
         background-color: rgba(43, 43, 42, 0.555);
@@ -246,8 +247,7 @@
         border-style: none;
         border-radius: 3px;
         width: 100%;
-        height: 105px;
-        bottom: 1px;
+        height: 14vh;
         left: 1px;
         font-weight: 50;
         letter-spacing: 0.2em;
