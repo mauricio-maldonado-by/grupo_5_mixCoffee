@@ -14,3 +14,7 @@ app.listen(process.env.PORT || '3000', function(){
 app.get('/',(req,res)=>{
     res.sendFile(__dirname + '/views/home.html')
 });
+
+app.get('/detalle',(req,res)=>{
+    res.sendFile(__dirname + '/views/productdetail.html')
+});
