@@ -12,7 +12,6 @@ app.listen(process.env.PORT || '3000', function(){
     console.log("Servidor iniciado en el puerto 3000")
 });
 
-/*
 app.get('/',(req,res)=>{
     res.sendFile(__dirname + '/views/home.html')
 });
@@ -20,4 +19,7 @@ app.get('/',(req,res)=>{
 app.get('/detalle',(req,res)=>{
     res.sendFile(__dirname + '/views/productdetail.html')
 });
-*/
+
+app.get('/carrito',(req,res)=>{
+    res.sendFile(__dirname + '/views/productcart.html')
+});
