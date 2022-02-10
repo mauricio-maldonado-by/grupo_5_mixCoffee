@@ -1,19 +1,29 @@
 ///products (GET)
 
 const { append } = require("express/lib/response");
-
+const fs=require('fs');
 //Listado de productos
 router.get("/products", (req, res) => {
     res.render("products")
 });
 
 const controller = {
-    todos: (req, res) => { res.render('products')}
+    fs(): (req, res) => { res.render('products')}
 };
 
 router.get("/products", controller.todos);
 
 append.get("/products", (req, res) => { res.render('products')});
+
+fs.writeFile('./archivo1.txt', 'línea 1\nLínea 2', error => {
+    if (error)
+      console.log(error);
+    else
+      console.log('El archivo fue creado');
+  });
+  
+  console.log('última línea del programa');
+  
 
 //2. /products/create (GET)
 //Formulario de creación de productos
