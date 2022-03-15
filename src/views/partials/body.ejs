@@ -4,42 +4,30 @@
 
 <section class="listaProductos">
     <h1>LISTA DE PRODUCTOS</h1>
-    
-                
-        <div class="container products-wrapper">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="products-title">Ofertas</h2>
-				</div>
-				<!-- Show the "in-sale" products -->
-
+ 
     <% for (const product of products) { %>
-				<% inSale.forEach(function(product){ 
-					let finalPrice = (product.precio * ((100 - product.descuento) / 100)).toFixed(0)
-				%>
-					<div class="col-12 col-sm-6 col-lg-3">
-						<section class="product-box">
-							<a href="/products/detail/<%= product.id %>">
-								<figure class="product-box_image">
-									<img src="/img/<%= product.imagen %>" alt="imagen de producto">
-								</figure>
-								<article class="product-box_data">
-									<h2><%= toThousand(finalPrice) %></h2>
-									<span><%= product.descuento %> %OFF</span>
-									<p><%= product.nombre %></p>
-								</article>
-							</a>
-						</section>
-					</div>
-				<% }) %>
-				</div>
-			</div>
+        <div class="col-12 col-sm-6 col-lg-3">
 
-
+			<section class="product-box">
+				<a href="/products/detail/<%= product.id %>">
+				    <figure class="product_image">
+					    <img src="/img/<%= product.imagen %>" alt="imagen de producto">
+					</figure>
+					<article class="product">
+                        <h1><%= product.nombre %></h1>
+                        <h4><%= product.descripcion %></h4>
+                        <h3>Categoria: <%= product.categoria %></h3>
+                        <h3>Color: <%= product.color %></h3>
+                        <h3>$<%= product.precio %></h3>
+                        <span><%= product.descuento %>% OFF pago en efectivo</span>
+                        <span>$<%= product.delivery %> de envío</span>
+						
+                    </article>	
+				</a>
+			</section>
+		</div>
         <br/> <%= product.nombre %>
     <% } %>
-
-  
 
 </section>
     

@@ -6,28 +6,24 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
 const controller = {
-   
+   /*
     index: (req, res) => {
+        
         res.render('index', {products: products})
     },
 
-    detalle: (req, res) => {
-        res.render('detail', {products: products})
-    },
-
-
-    
-    main: (req, res) => {  
-        res.sendFile(path.join(__dirname, '../views/home.html'));
-    },
- /*   
-    index: (req, res) => {
-        res.sendFile(path.join(__dirname, '../views/index.html'));
-    },
 */
 
+    detalle: (req, res) => {
+        res.render('productDetail', {products})
+    },
+    
+    main: (req, res) => {  
+        res.render('home', products);
+    },
+
     carrito: (req, res) => {  
-        res.sendFile(path.join(__dirname, '../views/productcart.html'));
+        res.render('productCart', products);
     },
  
  /*   
