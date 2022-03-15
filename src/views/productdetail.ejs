@@ -37,11 +37,12 @@
             </div>
             <!--Seccion2><-->
             <div class="detalleProducto">
-                <label id="tituloProducto">Titulo del Producto<br></label>
-                <label id="precioProducto">$999<br></label>
+                <label id="tituloProducto"><%= product.nombre %><br></label>
+                <p id="precioProducto">$<%= product.precio %><br></p>
                 <label id="disp">Disponibilidad</label>
-                <span id="dispProducto"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, omnis sunt atque qui quaerat nam nostrum. </p></span>
+                <span id="descProducto"><p>Descripción del Producto: <%= product.descripcion %></p></span>
                 <label id="pers"><br>Personalizacion</label>
+                <p id="color"><bold>Color: </bold><%= product.color %></p>
                 <ul class="coloresProducto">
                     <li>
                         <img id="clrPrd1" src="/img/termo002.jpg">    
@@ -53,24 +54,27 @@
                         <img id="clrPrd3" src="/img/termo002.jpg">    
                     </li>
                 </ul>
-                <ul class="tprod">
-                    <li id="tProducto">
-                        <select id="tPrd">
+                
+                <ul class="tProd"> 
+                    <li><a id="tamanioProducto">Elige Tamaño</a>
+                        <select id="sizeProd">
                             <option>Grande</option>
                             <option>Mediano</option>
                             <option>Chico</option>
                         </select>
                     </li>
-                    <li id="cProducto">
-                        <select id="cPrd">
-                            <option>5</option>
-                            <option>4</option>
-                            <option>3</option>
-                            <option>2</option>
+                    <li><a id="cantidadProducto">Selecciona Cantidad</a>
+                        <select id="qtyPrd">
                             <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>otra</option>
                         </select>
                     </li>
                 </ul>
+               
                 <ul class="bProd">
                     <li id="bProducto">
                         <button id="btnAgregar">Agregar al Carrito</button>

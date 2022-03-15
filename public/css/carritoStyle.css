@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,cursive;
+    font-size: 16.5px;
+    font-weight: 10;
+    letter-spacing: 0.195em;
+}
+#logo{
+    position: relative;
+    top: 8px;
+    left: 15px;
+    width: 190px;
+    height: 80px;
+}
+.nHome{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    list-style-type: none;
+    height: 105px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 32, 32);
+}
+.btnLogin{
+    font-size: 19px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: white;
+    background-color: rgba(92, 90, 90, 0.63);
+}
+.btnLogin:hover{
+    transition: 0.5s;
+    background-color:  rgba(165, 42, 42, 0.849);
+    color: white;
+    font-weight: 300;
+}
+.searchBx{
+    font-size: 19px;
+    margin-top: 25px;
+    margin-left: 15px;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.438);
+    background-color: rgba(92, 90, 90, 0.808);
+}
+.nHome li {
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 150;
+}
+
+.nHome li a {
+    color: rgba(255, 255, 255, 0.753);
+    text-align: center;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+.nHome li a:hover{
+    transition: 0.5s;
+    color: white;
+    background-color:  rgba(165, 42, 42, 0.849);
+    font-weight: 300;
+}
+.nAviso{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    color: white;
+    padding: 0;
+    padding-top: 5px;
+    overflow: hidden;
+    background-color: rgb(99, 97, 97);
+}
+.nAviso p{
+    text-align: center;
+
+}
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 32, 32);
+
+    width: 100%;
+}
+.prdDescripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgb(34, 32, 32);
+    box-shadow: rgb(0, 0, 0);   
+    height: 850px;
+}
+.cntPrd001{
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 100%;
+}
+#prd001{
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-style: solid;
+    border-color: rgba(39, 39, 39, 0.61);
+    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+}
+#listaPrd{
+    list-style-type: none;
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.356);
+}
+#listaPrd li{
+    float: left;
+    align-items: center;
+    margin: 5px;
+    padding: 15px;
+    border-style: solid;
+    border-color: rgba(39, 39, 39, 0.61);
+    border-radius: 7px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.288);
+}
+#prd002,#prd003,#prd004,#prd005,#prd006{
+    width: 40px;
+    height: 70px;
+    
+}
+#listaPrd li:hover{
+    transition: 0.5s;
+    border-color: rgba(255, 255, 255, 0.781);
+}
+
+.detalleProducto{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    top: 20px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    left: 650px;
+    background-color: white;
+    width: 50%;
+    height: 700px;
+}
+#tituloProducto{
+    color: rgba(22, 22, 22, 0.74);
+    font-size: 55px;
+    text-align: right;
+    left: 0;
+    letter-spacing: 0.22em;
+    font-weight: 400;
+}
+#precioProducto{
+    color: rgba(22, 22, 22, 0.74);
+    font-size: 55px;
+    text-align: right;
+    left: 0;
+    letter-spacing: 0.25em;
+    font-weight: 400;
+}
+#disp{
+    font-size: 30px;
+    font-weight: 400;
+}
+#pers{
+    left: 250px;
+    text-align: center;
+    font-size: 20px;
+}
+.coloresProducto{
+    list-style-type: none;
+}
+.coloresProducto li{
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.459);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.212);
+    left: 110px;
+    padding: 15px;
+    border-radius: 35px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    float: left;
+    margin: 30px;
+    margin-bottom: 25px;
+}
+.coloresProducto li:hover{
+    transition: 0.8s;
+    border-color: white;
+
+}
+#clrPrd1,#clrPrd2,#clrPrd3{ 
+    padding: 5px;
+    width: 30px;
+    height: 55px;
+}
+.tprod{
+    list-style-type: none;
+}
+.tprod li{
+    top: 10px;
+    right: 30px;
+    float: left;
+    margin-right: 2px;
+}
+#tPrd{
+    width: 550px;
+    height: 60px;
+    text-align: center;
+}
+#cPrd{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+.bProd{
+    list-style-type: none; 
+}
+.bProd li{
+    top: 30px;
+    right: 30px;
+    float: left;
+    margin-right: 2px;
+}
+#btnAgregar{
+    width: 550px;
+    height: 60px;
+}
+#btnFav{
+    width: 100px;
+    height: 60px;
+}
+
+#politicasEnvio{
+    margin: 15px;
+    left: 15px;
+}
+#pEnvio{
+    font-size: 22px;
+    font-weight: 400;
+}
