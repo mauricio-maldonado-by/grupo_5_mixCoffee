@@ -92,6 +92,7 @@
         padding-top: 0.2vh;
         overflow: hidden;
         background-color: rgb(99, 97, 97);
+        text-align: center;
     }
     .nAviso p{
         text-align: center;

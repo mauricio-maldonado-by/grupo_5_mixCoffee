@@ -81,6 +81,7 @@
     padding-top: 5px;
     overflow: hidden;
     background-color: rgb(99, 97, 97);
+    text-align: center;
 }
 .nAviso p{
     text-align: center;
@@ -89,9 +90,15 @@
 .mainSection{
     display: flex;
     flex-direction: row;
-    background-color: rgb(34, 32, 32);
-
-    width: 100%;
+    background-color: rgb(34, 32, 32);  
+    width: 80%;
+    
+    list-style-type: none;
+    height: 105px;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+  
 }
 .prdDescripcion{
     display: flex;
@@ -144,6 +151,87 @@
     border-color: rgba(255, 255, 255, 0.781);
 }
 
+
+/* Presentacion prodcutos */
+.products-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ebebeb;
+  }
+  
+  .products-title {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+  }
+ 
+/*====== Formularios ======*/
+.form-label {
+    display: flex;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+ 
+  .form-input {
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    background-color: #ebebeb;
+    border-radius: 8px;
+    border: none;
+    border: solid 1px black;
+    padding: 0 15px;
+  }
+  .form-input-text {
+    display: block;
+    width: 450px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    background-color: #ebebeb;
+    border-radius: 8px;
+    border: none;
+    border: solid 1px black;
+    padding: 0 15px;
+  }
+
+.buy-now-button {
+    background-color: #1259c3;
+    font-size: 1em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+  }
+      
+/* -------- Detalle de Productos --------*/  
+
+.product-detail {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+  }
+  
+  .action-button.edit {
+    background-color: chocolate;
+  }
+  .action-button.delete {
+    background-color: rgb(248, 69, 37);
+  }
+  
 .detalleProducto{
     display: flex;
     flex-direction: column;
@@ -153,7 +241,7 @@
     margin-top: 15px;
     margin-left: 50px;
     left: 650px;
-    background-color:white;
+    background-color:#ebebeb;
     width: 50%;
     height: 700px;
 }
@@ -256,3 +344,24 @@
     font-size: 22px;
     font-weight: 400;
 }
+/*====== Footer ======*/
+.main-footer {
+    display: flex;
+    color: black;
+    align-items: right;
+    text-align: center;
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+.pagefoot {
+    color: black;
+    font-size: 2.4em;
+    font-weight: 700;
+  }
+.copyright {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
