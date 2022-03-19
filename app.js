@@ -8,6 +8,8 @@ const productsRouter = require('./src/routers/products');
 app.use(express.static(publicFolderPath));
 app.use('/', mainRouter);
 app.use('/products', productsRouter);
+//app.use(bodyParser.urlencoded({ extended: false }));
+//app.use(bodyParser.json());
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './src/views'));
