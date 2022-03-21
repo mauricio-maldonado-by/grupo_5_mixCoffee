@@ -33,8 +33,8 @@
             <div class="detalleProducto">
                 <label id="tituloProducto"><%= product.nombre %><br></label>
                 <p id="precioProducto">$<%= product.precio %><br></p>
-                <label id="disp">Disponibilidad</label>
-                <span id="descProducto"><p>Descripción del Producto: <%= product.descripcion %></p></span>
+                <label id="description">Descripción</label>
+                <span id="descProducto"><p><%= product.descripcion %></p></span>
                 <label id="pers"><br>Personalizacion</label>
                 <p id="color"><bold>Color: </bold><%= product.color %></p>
                 <ul class="coloresProducto">
@@ -73,10 +73,17 @@
                     <li id="bProducto">
                         <button id="btnAgregar">Agregar al Carrito</button>
                     </li>
-                    <li id="fProducto">
-                        <button id="btnFav">Fav</button>
+                    <li id="editProduct">
+                        <form action="/products/edit/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+							<button type="submit" class="action-button edit">Editar</button>
+						</form>
                     </li>
-                </ul>
+                    <li id="deleteProduct">
+                        <form action="/products/delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+							<button type="submit" class="action-button delete">Borrar</button>
+						</form>
+                    </li>
+                </ul>					
                 <span id="politicasEnvio">
                     <label id="pEnvio">Politicas de Envio</label>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>

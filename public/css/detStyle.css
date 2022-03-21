@@ -232,13 +232,7 @@
     justify-content: space-around;
   }
   
-  .action-button.edit {
-    background-color: chocolate;
-  }
-  .action-button.delete {
-    background-color: rgb(248, 69, 37);
-  }
-  
+
 .detalleProducto{
     display: flex;
     flex-direction: column;
@@ -251,6 +245,8 @@
     background-color:#ebebeb;
     width: 50%;
     height: 700px;
+       
+    justify-content: space-around;
 }
 #tituloProducto{
     color: rgba(22, 22, 22, 0.74);
@@ -268,7 +264,7 @@
     letter-spacing: 0.1em;
     font-weight: 600;
 }
-#disp{
+#description{
     font-size: 25px;
     font-weight: 600;
 }
@@ -335,14 +331,22 @@
     margin-right: 2px;
 }
 #btnAgregar{
-    width: 550px;
-    height: 60px;
-}
-#btnFav{
-    width: 100px;
+    background-color: darkkhaki;
+    width: 300px;
     height: 60px;
 }
 
+.action-button.edit {
+    background-color: darkkhaki;
+    width: 170px;
+    height: 60px;
+  }
+  .action-button.delete {
+    background-color: darkkhaki;
+    width: 170px;
+    height: 60px;
+  }
+  
 #politicasEnvio{
     margin: 15px;
     left: 15px;
