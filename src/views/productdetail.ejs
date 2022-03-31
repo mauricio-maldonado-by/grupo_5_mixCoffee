@@ -74,10 +74,17 @@
                         <button id="btnAgregar">Agregar al Carrito</button>
                     </li>
                     <li id="editProduct">
-                        <form action="/products/edit/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+                        <form action="/products/edit/<%= product.id %>?_method=PUT" method="POST" style="display: inline-flex">
 							<button type="submit" class="action-button edit">Editar</button>
 						</form>
+                      
                     </li>
+
+                    <!-- <a id="editProduct" href="/products/edit/<%= product.id %>">
+                        <form  style="display: inline-flex">
+                            <button type="submit" class="action-button edit">Editar</button>
+                        </form>
+                    </a> -->
                     <li id="deleteProduct">
                         <form action="/products/delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
 							<button type="submit" class="action-button delete">Borrar</button>
