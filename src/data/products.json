@@ -11,15 +11,7 @@
   "delivery": "267"
  },
  {
-  "id": 2,
-  "nombre": "Café Americano",
-  "descripcion": "suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum",
-  "precio": 928.46,
-  "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Azul",
-  "descuento": 15,
-  "delivery": "5"
+  "id": "2"
  },
  {
   "id": 3,
@@ -44,15 +36,7 @@
   "delivery": "84334"
  },
  {
-  "id": 5,
-  "nombre": "Café Negro",
-  "descripcion": "in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat",
-  "precio": 180.81,
-  "categoria": "Late machiato",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Gris",
-  "descuento": 50,
-  "delivery": "7"
+  "id": "5"
  },
  {
   "id": 6,
@@ -407,36 +391,34 @@
   "delivery": "90675"
  },
  {
-  "id": 38,
-  "nombre": "Café Americano",
-  "descripcion": "massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio",
-  "precio": 89.1,
-  "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Rojo",
-  "descuento": 56,
-  "delivery": "48087"
+  "id": "38",
+  "nombre": "Café Turco",
+  "descripcion": "gsdfgsdgsdfgsdgsdgfsd",
+  "precio": "21241241",
+  "descuento": "23232",
+  "delivery": "1221",
+  "categoria": "alimento",
+  "color": "Gris"
  },
  {
-  "id": 39,
-  "nombre": "Café sin Azucar",
-  "descripcion": "mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum",
-  "precio": 845.49,
-  "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Negro",
-  "descuento": 48,
-  "delivery": "4381"
- },
- {
-  "id": 40,
-  "nombre": "Termo para bebida caliente",
-  "descripcion": "a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
-  "precio": 607.75,
+  "id": "39",
+  "nombre": "Café Turco",
+  "descripcion": "sfgsdfgsdgdgsdgsdfgsdf",
+  "precio": "12343",
+  "descuento": "124",
+  "delivery": "121",
   "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Azul",
-  "descuento": 1,
-  "delivery": "31303"
+  "color": "black"
+ },
+ {
+  "id": "40",
+  "nombre": "Café Veracruz",
+  "descripcion": "asdsafasdfasf",
+  "precio": "32456",
+  "descuento": "212",
+  "delivery": "1234",
+  "categoria": "moka",
+  "color": "red",
+  "imagen": "1648695252482-opc3.jpg"
  }
 ]
