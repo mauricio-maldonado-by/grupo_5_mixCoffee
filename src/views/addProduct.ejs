@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('./partials/head.ejs', {title: 'Agregando Producto'})%>
+    <%-include('./partials/header.ejs')%>
+  
+    <body>
+        <div class="container products-wrapper">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="products-title">Registro de nuevo producto</h2>
+                </div>
+            </div>
+            <div class="col-md412">
+                <form action="/products" method="POST" enctype="multipart/form-data">
+                    <div class="row product-detail">
+                        <div class="col-12 col-md-6">
+                            <label for="name" class="form-label">Nombre del producto:</label>
+                            <input type="text" id="name" name="nombre" placeholder="Ej: Café de grano tostado" class="form-input-text">
+                        </div>
+                        <div class="col-12">
+                            <label for="description" class="form-label">Descripción:</label>
+                            <textarea name="descripcion" id="description" class="form-input-text"></textarea>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="price" class="form-label">Precio del producto:</label>
+                            <input type="number" id="price" name="precio" placeholder="Ej: 5678" class="form-input">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="discount" class="form-label">Descuento:</label>
+                            <input type="number" id="discount" name="descuento" placeholder="Ej: 15" class="form-input">
+                        </div>
+                        
+                        <div class="col-12 col-md-6">
+                            <label for="delivery" class="form-label">Delivery:</label>
+                            <input type="number" id="delivery" name="delivery" placeholder="Ej: 15" class="form-input">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="category" class="form-label">Categoría:</label>
+                            <select name="categoria" id="category" class="form-input">
+                                <option value="">Elige</option>
+                                <option value="toping">Alimento</option>
+                                <option value="xpressAmerican">espresso americano</option>
+                                <option value="latte">cafe late</option>
+                                <option value="vainillaLatte">Vainilla Latte</option>
+                                <option value="xpressVainilla">Espresso Vainilla</option>
+                                <option value="machiatto">Late machiatto</option>
+                                <option value="moka">moka</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="color" class="form-label">Color:</label>
+                            <select name="color" id="color" class="form-input">
+                                <option value="">Elige</option>
+                                <option value="blue">Azúl</option>
+                                <option value="grey">Gris</option>
+                                <option value="black">Negro</option>
+                                <option value="red">Rojo</option>
+                            </select>
+                        </div>
+
+
+                        <div class="col-12">
+                            <label for="imagen" class="form-label">Sube la imagen:</label>
+                            <input type="file" name="imagen" id="file">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="buy-now-button">Guardar producto</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    </body>
+
+    <%-include('./partials/footer.ejs')%>
+ </html>

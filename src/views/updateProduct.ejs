@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('./partials/head.ejs', {title: 'Actualizando Producto'})%>
+    <%-include('./partials/header.ejs')%>
+  
+    <body>
+        <div class="container products-wrapper">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="products-title">Actualización de Producto</h2>
+                </div>
+            </div>
+            <div class="col-md412">
+                 <form action="/products/edit/<%= productToEdit.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+                    <div class="row product-detail">
+                        <div class="col-12 col-md-6">
+                            <label for="name" class="form-label">Nombre del producto:</label>
+                            <input type="text" id="name" name="nombre" placeholder="Ej: Café de grano tostado" class="form-input-text" value="<%= productToEdit.nombre %>">
+                        </div>
+                        <div class="col-12">
+                            <label for="description" class="form-label">Descripción:</label>
+                            <textarea name="descripcion" id="description" class="form-input-text"><%= productToEdit.descripcion %></textarea>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="price" class="form-label">Precio del producto:</label>
+                            <input type="number" id="price" name="precio" placeholder="Ej: 5678" class="form-input" value="<%= productToEdit.precio %>">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="discount" class="form-label">Descuento:</label>
+                            <input type="number" id="discount" name="descuento" placeholder="Ej: 15" class="form-input" value="<%= productToEdit.descuento %>">
+                        </div>
+                        
+                        <div class="col-12 col-md-6">
+                            <label for="delivery" class="form-label">Delivery:</label>
+                            <input type="number" id="delivery" name="delivery" placeholder="Ej: 15" class="form-input"value="<%= productToEdit.delivery %>">
+                        </div>
+                        div class="col-12 col-md-6">
+                            <label for="category" class="form-label">Categoría:</label>
+                            <select name="categoria" id="category" class="form-input">
+                                <% if (productToEdit.categoria == 'Alimento') {%>
+                                <option value="toping" selected>Alimento</option>
+                                <% } else if (productToEdit.categoria == 'espresso americano'){ %>
+                                <option value="xpressAmerican" selected>espresso americano</option>
+                                <% } else if (productToEdit.categoria == 'cafe late'){ %>
+                                <option value="latte" selected>cafe late</option>
+                                <% } else if (productToEdit.categoria == 'Vainilla Latte'){ %>
+                                <option value="vainillaLatte" selected>Vainilla Latte</option>
+                                <% } else if (productToEdit.categoria == 'Espresso Vainilla'){ %>
+                                <option value="xpressVainilla" selected>Espresso Vainilla</option>
+                                <% } else if (productToEdit.categoria == 'Late machiatto'){ %>
+                                  <option value="machiatto" selected>Late machiatto</option>
+                                <% } else if (productToEdit.categoria == 'moka'){ %>
+                                  <option value="moka" selected>moka</option>  
+                                <% } else { %>
+                                <option value="">Elige</option>
+                                <% } %>
+                            </select>
+
+                            <select name="color" id="color" class="form-input">
+                                <% if (productToEdit.color == 'Azul') {%>
+                                <option value="blue" selected>Azul</option>
+                                <% } else if (productToEdit.color == 'Gris'){ %>
+                                <option value="grey" selected>Gris</option>
+                                <% } else if (productToEdit.color == 'Negro'){ %>
+                                <option value="black" selected>Negro</option>
+                                <% } else if (productToEdit.categoria == 'Rojo'){ %>
+                                <option value="red" selected>Rojo</option>
+                                <% } else { %>
+                                <option value="">Elige</option>
+                                <% } %>
+                          </select>
+
+                        <div class="col-12">
+                            <label for="imagen" class="form-label">Sube la imagen:</label>
+                            <input type="file" name="imagen" id="file">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="buy-now-button">Guardar producto</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    </body>
+
+    <%-include('./partials/footer.ejs')%>
+ </html>
