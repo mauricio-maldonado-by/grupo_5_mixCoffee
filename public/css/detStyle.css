@@ -32,12 +32,50 @@
     margin-left: 15px;
     margin-top: 25px;
     color: white;
+<<<<<<< HEAD
     background-color: rgba(92, 90, 90, 0.63);
 }
 .btnLogin:hover{
+=======
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 50px;
+  }
+  .logo-img{
+    width: 250px;
+    height: 12vh;
+  }
+  
+  .nav-menu {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 15px;
+    list-style: none;
+  }
+  
+  .nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+  
+  .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background-color: rgba(136, 34, 34, 0.849);
+>>>>>>> 5b9534d (Se crean vista login/cart/home)
     transition: 0.5s;
     background-color:  rgba(165, 42, 42, 0.849);
     color: white;
+<<<<<<< HEAD
     font-weight: 300;
 }
 .searchBx{
@@ -85,6 +123,75 @@
 }
 .nAviso p{
     text-align: center;
+=======
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  /* MOBILE */
+  @media (max-width: 768px) {
+    body {
+      padding-top: 70px;
+    }
+  
+    .header {
+      height: 90px;
+    }
+  
+    .logo nav-link {
+      font-size: 50px;
+    }
+    .logo-img{
+      margin-left: 100%;
+      width: 170px;
+      height: 9vh;
+    }
+    
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      background-color: #2c3e50;
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      padding: 20px 0;
+      height: calc(100% - 60px);
+      overflow-y: auto;
+      left: 100%;
+      transition: left 0.3s;
+    }
+  
+    .nav-menu-item {
+      line-height: 70px;
+    }
+  
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+      background: none;
+      color: #83c5f7;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  
+    .nav-menu_visible {
+      left: 0;
+    }
+  
+    .nav-toggle:focus:not(:focus-visible) {
+      outline: none;
+    }
+  }
+>>>>>>> 5b9534d (Se crean vista login/cart/home)
 
 }
 .mainSection{

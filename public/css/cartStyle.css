@@ -1,0 +1,148 @@
+/*CSS DE OPCIONES EN SECCION 2 (CARDS) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  } 
+    .separator2{
+            width: 100%;
+            height: 12vh;
+            background-color: black;
+        }
+    .homeSection{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        background-color: rgb(224, 224, 224);
+    }
+    .homeSection .cards{
+        width: 330px;
+        height: 480px;
+        border-radius: 7px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        transition: all 0.25s
+    }
+    .homeSection .cards:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+    }
+    .homeSection .cards img{
+        width: 330px;
+        height: 220px;
+    }
+    .homeSection .cards span{
+        font-weight: 600;
+    }
+    .homeSection .cards p{
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .homeSection .cards a{
+        font-weight: 500;
+        text-decoration: none;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+    }
+    .container{
+        width: 100%;
+        height: 15vh;
+    }
+    .toggle-buttons{
+        display: flex;
+        margin-top: 2vh;
+        justify-content: center;
+
+    }
+    .toggle-buttons input{
+        width: 40px;
+        height: 40px;
+        font-weight: 500;
+        padding: 0px;
+        text-align: center;
+        border: 0.9px solid rgba(170, 169, 169, 0.753);
+        border-radius: 4px;
+        box-shadow: 0 2px 2px rgba(87, 87, 87, 0.034);
+        background-color: white;
+        overflow: hidden;
+        margin: 5px;
+        margin-bottom: 10px;
+        transition: all 0.50s
+    }
+
+    .toggle-buttons input:hover{
+        transform: translateY(-5px);
+        background-color: rgb(20, 19, 19);
+        color: white;
+        /*border: 2.5px solid rgba(136, 34, 34, 0.849);*/
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+    .subsection1{
+        display: flex;
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        background-color: rgb(243, 243, 243);
+    }
+    .subsection2{
+        width: 30%;
+        height: auto;
+        border: 0.5px solid rgba(170, 169, 169, 0.753);
+        box-shadow: -1px 2px 7px 1px rgba(0, 0, 0, 0.5);   
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+    }
+    .subsection2 .cards2{
+        width: 400px;
+        height: 770px;
+        border-radius: 7px;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);   
+        background-color: white;
+        border: 2px solid rgba(170, 169, 169, 0.822);
+        overflow: hidden;
+        margin: 40px;
+        margin-left: 70px;
+        text-align: center;
+        transition: all 0.25s
+    }
+    .subsection2 .cards2 img{
+        width: 400px;
+        height: 220px;
+    }
+    .subsection2 input{
+        width: 250px;
+        height: 7vh;
+        margin-top: 100px;
+        border: 2px solid rgba(128, 128, 128, 0.575);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+        background-color: rgba(255, 255, 255, 0.74);
+        border-radius: 4px;
+        transition: all 0.5s;
+        color: rgb(0, 0, 0);
+    }
+    .subsection2 input:hover{
+        border: 0.5px solid rgba(255, 255, 255, 0.308);
+        background-color: rgba(0, 0, 0, 0.849);
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+    }
+
+
+    
+    
