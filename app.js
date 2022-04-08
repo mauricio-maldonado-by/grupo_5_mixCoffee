@@ -17,9 +17,6 @@ app.use(express.json());
 app.use('/', mainRouter);
 app.use('/products', productsRouter);
 
-//app.use(bodyParser.urlencoded({ extended: false }));
-//app.use(bodyParser.json());
-
 app.listen(process.env.PORT || '3000', function(){
     console.log("Servidor iniciado en el puerto 3000")
 });
