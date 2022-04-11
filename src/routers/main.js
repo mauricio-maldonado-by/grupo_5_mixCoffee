@@ -7,7 +7,7 @@ const {body} = require('express-validator');
 const {check} = require('express-validator');
 
 // validaciones
-const validation = [
+const validations = [
     body('name').notEmpty().withMessage('El campo no puede estar vacío!').bail(),
    
     body('lasName').notEmpty().withMessage('El campo no puede estar vacío!').bail(),
@@ -44,7 +44,7 @@ router.get('/', mainController.main);
 router.get ('/home', mainController.main);
 router.get('/carrito', mainController.carrito);
 router.get('/login', mainController.login);
-router.post('/login', validation, mainController.login);
+//router.post('/login', validation, mainController.login);
 
 router.get('/register', mainController.registro);
 
