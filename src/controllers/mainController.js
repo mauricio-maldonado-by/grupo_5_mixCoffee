@@ -23,11 +23,8 @@ const controller = {
         res.render('productCart', {'prod2': prod2});
     },
      login: (req, res) => {  
-<<<<<<< HEAD
         res.render('login', login);
-=======
         res.render(path.join(__dirname, '../views/login.ejs'));
->>>>>>> 7c1616d97615cb0160e0a8ed85d29b1c2370e634
     },
     registro: (req, res) => {  
         res.sendFile(path.join(__dirname, '../views/register.html'));
@@ -40,7 +37,7 @@ const controller = {
             'Producto 4',
         ]
         res.render('carrito2', {'prod': prod})
-    }
+    },
 
     create: (req, res) => {
 		res.render('addProduct')
