@@ -47,5 +47,6 @@ router.get('/login', mainController.login);
 //router.post('/login', validation, mainController.login);
 
 router.get('/register', mainController.registro);
+router.get('/carrito2', mainController.carrito2);
 
 module.exports = router;

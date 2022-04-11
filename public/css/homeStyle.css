@@ -208,9 +208,108 @@ footer{
     background-color: black;
     color: white;
 }
-@media (max-width: 768px) {
-    select{
-        visibility: hidden;
+
+   
+
+/* Codigo de Navegacion Termina Aqui */
+
+.separator{
+    width: 100%;
+    height: 14vh;
+    background-image: url(https://img.freepik.com/foto-gratis/concepto-servicio-preparacion-cafe-barista-cafe_1157-36643.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/*CSS DE OPCIONES EN SECCION 2 (CARDS) */
+
+    .homeSection2{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgb(224, 224, 224);
+        margin: auto;
+    }
+    .homeSection2 .card{
+        width: 330px;
+        height: 480px;
+        border-radius: 7px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        overflow: hidden;
+        margin: 50px;
+        margin-top: 70px;
+        text-align: center;
+        transition: all 0.25s
+    }
+    .homeSection2 .card:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+    }
+    .homeSection2 .card img{
+        width: 330px;
+        height: 220px;
+    }
+    .homeSection2 .card span{
+        font-weight: 600;
+    }
+    .homeSection2 .card p{
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .homeSection2 .card a{
+        font-weight: 500;
+        text-decoration: none;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+    }
+    .container{
+        width: 100%;
+    }
+
+
+/* CSS DE SECCION 1 */
+    .hCafe{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .hCafe li select{
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        animation-direction: reverse;
+    }
+    .hCafe li {
+        float: left;
+        margin-left: 0px;
+        width: 17%;
+        padding-left: 1px;
+        font-size: 15px;
+    }
+    #tCafe,#tamCafe,#sCafe,#cCafe,#canCafe{
+        margin-top: 0px;
+        margin-left: 0px;
+        color: rgba(255, 255, 255, 0.733);
+        text-align: center;
+        font-size: auto;
+        height: 14vh;
+        width: 100%;
+        letter-spacing: 0.2em;
+        font-weight: 50;
+        background-color: rgba(43, 43, 42, 0.555);
     }
     #btnOrd{
         visibility: hidden;
@@ -219,5 +318,44 @@ footer{
         background-image: none;
         background-color: rgb(19, 17, 17);
         height: 7vh;
+    }
+    @media (max-width: 768px) {
+        select{
+            visibility: hidden;
+        }
+        #btnOrd{
+            visibility: hidden;
+        }
+        .separator{
+            background-image: none;
+            background-color: rgb(19, 17, 17);
+            height: 7vh;
+        }
+    }
+@media (max-width: 768px) {
+    select{
+        visibility: hidden;
+    }
+    * {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,cursive;
+        font-size: 16.5px;
+        font-weight: 10;
+        letter-spacing: 0.195em;
+    }
+    .section1{
+        position: relative ;
+        background-color: black;
+        margin: 0;
+        width: 98.7;
+        height: 100vh;
+    }
+    .section1 video {
+        position: static;
+        z-index: 1;
+        height: 100vh;
+        width: 100%;
+        object-fit: fill;
+        opacity: 0.5;
     }
 }

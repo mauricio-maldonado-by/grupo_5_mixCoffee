@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <%-include('./partials/header.ejs')%>
-    </head>
-    
+    <link rel=StyleSheet  href="/css/cartStyle.css">
+    <%-include('./partials/head.ejs')%>
     <body>
-        <%-include('./partials/body.ejs')%>
+        <%-include('./partials/navBar.ejs')%>
+        <div class="separator2">
+        </div>
+        <section class="homeSection" >
+            <div class="subsection1">
+                <% for (let i = 0; i < prod2.length; i++){ %>
+                        <div class="cards">
+                            <img src="img/cafe2.jpg" alt="">
+                            <span><%= prod2[i] %><br><br></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+                            <a href="#">Leer mas</a>
+                            <div class="toggle-buttons">
+                                <form action="" method="GET">
+                                    <input type="button" name="add" value="+">
+                                </form>
+                                <form action="" method="GET">
+                                    <input type="button" name="minus" value="-">
+                                </form>
+                            </div>
+                        </div>
+                <% } %>
+            </div>
+            <div class="subsection2">
+                <div class="cards2">
+                    <img src="https://www.ulabox.com/blog/wp-content/uploads/2015/06/1-pago_seguro.png" alt="">
+                    <span>Cuenta total<br><br></span>
+                    <% for (let i = 0; i < 6; i++){ %>
+                        <p>1 - $999<br></p>
+                    <% } %> 
+                        <p><br><br></bt>Total - $999<br><br></p>
+                        <form action="" method="GET">
+                            <input type="submit" name="pagar" value="Realizar Pago">
+                        </form>
+                </div>
+            </div>
+        </section>
     </body>
         
-    <footer>
         <%-include('./partials/footer.ejs')%>
-    </footer>
-
 </html>
