@@ -1,0 +1,49 @@
+!DOCTYPE html>
+<html lang="en">
+    <%-include('./partials/head.ejs', {title: 'Login'})%>
+    <%-include('./partials/header.ejs')%>
+  
+    <body>
+        <div class="container products-wrapper">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="products-title">Ingresar</h2>
+                </div>
+            </div>
+            <div class="col-md412">
+                <form action="/products" method="POST">
+                    <div class="row product-detail">
+                        <div class="col-12 col-md-6">
+                            <label for="firstName" class="form-label"><b>Nombre:</b></label>
+                            <input type="text" id="firstName" name="nombre" placeholder="nombre de pila" class="form-input-text">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="lastName" class="form-label"><b>Apellido:</b></label>
+                            <input type="text" id="lastName" name="apellido" placeholder="apellido" class="form-input-text">
+                        </div>
+                        <div class="col-12">
+                            <label for="psw" class="form-label"><b>Password:</b></label>
+                            <input type="password" id="password" placeholder="Introducir Password" name="psw" required>
+                         </div>
+                       
+                        <div class="col-12">
+                            <button type="submit" class="button">Entrar</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Recordarme en este equipo
+                            </label>
+                        </div>
+                       
+                        <div class="container" style="background-color:#b4b9b9">
+                          <button type="button" class="cancelbtn">Cancelar</button>
+                          <span class="psw">Olvidaste tu password?</span>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    </body>
+
+    <%-include('./partials/footer.ejs')%>
+ </html>
