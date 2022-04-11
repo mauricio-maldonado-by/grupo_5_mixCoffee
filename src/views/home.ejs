@@ -1,84 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<%-include('./partials/head.ejs')%>
+<%-include('./partials/headHome.ejs')%>
 <body>
     <!--Seccion 1-->
+    <link rel=StyleSheet  href="/css/homeStyle.css">
     <section class="section1">
-       <%-include('./partials/navBar.ejs')%>
-
-    <div class="capa">
-        <div class="capa2">
-            <video id="cta" autoplay muted loop>
-                <source src="/video/mixvid.mp4" type=video/mp4>
-            </video>      
-                <ul class="hCafe"> 
-                    <li>
-                        <select name="tipoCafe" id="tCafe">
-                            <option>T. CAFE</option>
-                            <option>OPCION 1</option>
-                            <option>OPCION 1</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="tamCafe" id="tamCafe">
-                            <option>PREPARACION</option>
-                            <option>OPCION 1</option>
-                            <option>OPCION 1</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="saborCafe" id="sCafe">
-                            <option>SABOR</option>
-                            <option>OPCION 1</option>
-                            <option>OPCION 1</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="complem" id="cCafe">
-                            <option>COMPLEMENTO</option>
-                            <option>OPCION 1</option>
-                            <option>OPCION 1</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="cantidad" id="canCafe">
-                            <option>CANTIDAD</option>
-                            <option>OPCION 1</option>
-                            <option>OPCION 1</option>
-                        </select>
-                    </li>
-                    <li>
-                        <button name="btnOrd" id="btnOrd">ORDENAR</button>
-                    </li>
-                </ul>
-        </div>   
-    </div>
-    </section>
-    <!--Seccion 2-->
-    <div class='mOpciones'>
-        <ul class="nOpciones">
-            <li><div class="opcion1">
-                <img src= /img/opc1.jpg id="opcImg1">
-                <p><span id="sOpc1">Titulo 1 <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-                    <button name="btnOpc1" id="btnOpc1">OPCION 1</button>
-                </div>
+    <%-include('./partials/navBar.ejs')%>
+    <video src="video/mixvid.mp4" autoplay muted loop></video>
+        <ul class="hCafe"> 
+            <li>
+                <select name="tipoCafe" id="tCafe">
+                    <option>T. CAFE</option>
+                    <option>OPCION 1</option>
+                    <option>OPCION 1</option>
+                </select>
             </li>
-            <li><div class="opcion2">
-                <img src= /img/opc2.jpg id="opcImg2">
-                <p><span id="sOpc2">Titulo 1 <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-                    <button name="btnOpc2" id="btnOpc2">OPCION 2</button>
-                </div>
+            <li>
+                <select name="tamCafe" id="tamCafe">
+                    <option>PREPARACION</option>
+                    <option>OPCION 1</option>
+                    <option>OPCION 1</option>
+                </select>
             </li>
-            <li><div class="opcion3">
-                <img src= /img/opc3.jpg id="opcImg3">
-                <p><span id="sOpc3">Titulo 1 <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span>
-                    <button name="btnOpc3" id="btnOpc3">OPCION 3</button>
-                </div>
+            <li>
+                <select name="saborCafe" id="sCafe">
+                    <option>SABOR</option>
+                    <option>OPCION 1</option>
+                    <option>OPCION 1</option>
+                </select>
+            </li>
+            <li>
+                <select name="complem" id="cCafe">
+                    <option>COMPLEMENTO</option>
+                    <option>OPCION 1</option>
+                    <option>OPCION 1</option>
+                </select>
+            </li>
+            <li>
+                <select name="cantidad" id="canCafe">
+                    <option>CANTIDAD</option>
+                    <option>OPCION 1</option>
+                    <option>OPCION 1</option>
+                </select>
+            </li>
+            <li>
+                <button name="btnOrd" id="btnOrd">ORDENAR</button>
             </li>
         </ul>
+    </section>
+    <div class="separator">
     </div>
+    <!--Seccion 2-->
+    <section class="homeSection2">
+        <div class="card">
+            <img src="img/cafe2.jpg" alt="">
+            <span>Cafe 1<br><br></span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="card">
+            <img src="img/opc1.jpg" alt="">
+            <span>Cafe 1</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="card">
+            <img src="img/opc2.jpg" alt="">
+            <span>Cafe 1</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="card">
+            <img src="img/opc3.jpg" alt="">
+            <span>Cafe 1</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+            <a href="#">Leer mas</a>
+        </div>
+    </section>
 </body>
 </html>
