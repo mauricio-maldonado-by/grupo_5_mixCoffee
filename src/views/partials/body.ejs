@@ -1,85 +1,36 @@
 <header>
     <h1>CARRITO DE COMPRA</h1>
 </header>
-
+<link rel=StyleSheet  href="/css/products.css">
 <section class="listaProductos">
+    <div class="separator"></div>
     <h1>LISTA DE PRODUCTOS</h1>
- 
+    <section class="productSection2">
     <% for (const product of products) { %>
         <div class="col-12 col-sm-6 col-lg-3">
-
-			<section class="product-box">
 				<a href="/products/detail/<%= product.id %>">
-				    <figure class="product_image">
-					    <img src="/img/<%= product.imagen %>" alt="imagen de producto">
-					</figure>
 					<article class="product">
-                        <h1><%= product.nombre %></h1>
+                      <!--  <h1><%= product.nombre %></h1>
                         <h4><%= product.descripcion %></h4>
                         <h3>Categoria: <%= product.categoria %></h3>
                         <h3>Color: <%= product.color %></h3>
                         <h3>$<%= product.precio %></h3>
                         <span><%= product.descuento %>% OFF pago en efectivo</span>
-                        <span>$<%= product.delivery %> de envío</span>
-						
+                        <span>$<%= product.delivery %> de envío</span>-->
+                        <div class="card">
+                            <img src=<%= product.imagen %> alt="">
+                            <span><%= product.nombre %><br><br></span>
+                            <p><br>Descripción:<br><%= product.descripcion %><br><br></p>
+                            <p><br>Categoria: <%= product.categoria %><br><br></p>
+                            <p><br>Precio: $<%= product.precio %><br><br></p>
+                            <p><br><%= product.descuento %>% OFF pago en efectivo<br><br></p>
+                            <p id="1"><br>$<%= product.delivery %> de envío<br><br></p>
+                        </div>
                     </article>	
 				</a>
-			</section>
 		</div>
         <br>
     <% } %>
-
+    </section>
 </section>
     
-
-<section class="carrito">
-
-            <article class="product">
-                <img src="cafeLatte.PNG" alt="cafe latte" class="image">
-                <h3 class="name">Café Latte</h3>
-                <p class="description">descripción</p>
-                <p class="price">$45.00</p>
-                <p class="discount">15% de descuento pago en efectivo</p>
-                <p class="delivery">$12.00</p>
-            </article>
-            <article class="product">
-                <img src="cappuccino.PNG" alt="cafe cappuccino" class="image">
-                <h3 class="name">Café Cappuccino</h3>
-                <p class="description">descripción</p>
-                <p class="price">$54.00</p>
-                <p class="discount">15% de descuento pago en efectivo</p>
-                <p class="delivery">$12.00</p>
-            <article class="product">
-                <img src="expressoAmericano.PNG" alt="cafe expresso americano">
-                <h3 class="name">Café Expresso Americano</h3>
-                <p class="description">descripción</p>
-                <p class="price">$40.00</p>
-                <p class="discount">15% de descuento pago en efectivo</p>
-                <p class="delivery">$12.00</p>
-            </article>
-            <article class="product">
-                <img src="latteMacchiato.PNG" alt="cafe latte macchiato">
-                <h3 class="name">Café Latte Macchiato</h3>
-                <p class="description">descripción</p>
-                <p class="price">$60.00</p>
-                <p class="discount">15% de descuento pago en efectivo</p>
-                <p class="delivery">$12.00</p>
-            </article> 
-            <article class="product">
-                <img src="mocha.PNG" alt="cafe mocha">
-                <h3 class="name">Café Mocha</h3>
-                <p class="description">descripción</p>
-                <p class="price">$60.00</p>
-                <p class="discount">15% de descuento pago en efectivo</p>
-                <p class="delivery">$12.00</p>
-            </article>
-            <article class="product">
-                <img src="vainillaLatte.PNG" alt="cafe vainilla latte">
-                <h3 class="name">Café Vainilla Latte</h3>
-                <p class="description">descripción</p>
-                <p class="price">$57.00</p>
-                <p class="discount">15% de descuento pago en efectivo</p>
-                <p class="delivery">$12.00</p>
-            </article>
-
-</section>

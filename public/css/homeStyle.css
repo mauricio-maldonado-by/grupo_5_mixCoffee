@@ -1,337 +1,223 @@
-    *{
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,cursive;
-        font-size: 16.5px;
-        font-weight: 10;
-        letter-spacing: 0.195em;
-    }
-    .section1{
-        position: relative  ;
-        background-color: black;
-        margin: 0;
-        width: 98.7;
-        height: 100vh;
-    }
-    #logo{
-        position: relative;
-        top: 0;
-        left: 15px;
-        width: 190px;
-        height: 80px;
-    }
-    .nHome{
-        position: absolute;
-        top: 0;
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        list-style-type: none;
-        height: 14vh;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(34, 32, 32);
-    }
-    .btnLogin{
-        font-size: 19px;
-        height: 50px;
-        width: 220px;
-        border-radius: 5px;
-        border-width: 0px;
-        margin-left: 15px;
-        margin-top: 2vh;
-        color: white;
-        background-color: rgba(92, 90, 90, 0.63);
-    }
-    .btnLogin:hover{
-        transition: 0.5s;
-        background-color:  rgba(165, 42, 42, 0.849);
-        color: white;
-        font-weight: 300;
-    }
-    .searchBx{
-        font-size: 19px;
-        margin-top: 2vh;
-        margin-left: 15px;
-        height: 50px;
-        width: 200px;
-        border-radius: 5px;
-        border-width: 0px;
-        text-align: center;
-        color: rgba(255, 255, 255, 0.438);
-        background-color: rgba(92, 90, 90, 0.808);
-    }
-    .nHome li {
-        float: left;
-        margin-top: 3.5vh;
-        margin-left: 16px;
-        font-size: 17px;
-        font-weight: 150;
-    }
-    
-    .nHome li a {
-        color: rgba(255, 255, 255, 0.753);
-        text-align: center;
-        padding: 40px 35px;
-        text-decoration: none;
-    }
-    .nHome li a:hover{
-        transition: 0.5s;
-        color: white;
-        background-color:  rgba(165, 42, 42, 0.849);
-        font-weight: 300;
-    }
-    .nAviso{
-        position: absolute;
-        width: 100%;
-        top: 10.5vh;
-        height: 4vh;
-        margin: 0;
-        color: white;
-        padding: 0;
-        padding-top: 0.2vh;
-        overflow: hidden;
-        background-color: rgb(99, 97, 97);
-        text-align: center;
-    }
-    .nAviso p{
-        text-align: center;
-    }
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,cursive;
+    font-size: 16.5px;
+    font-weight: 10;
+    letter-spacing: 0.195em;
+}
+.section1{
+    position: relative ;
+    background-color: black;
+    margin: 0;
+    width: 98.7;
+    height: 100vh;
+}
+.section1 video {
+    position: static;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    opacity: 0.5;
+}
 /* Codigo de Navegacion Termina Aqui */
 
-    .capa{ 
-        position: relative;
-        top: 14vh;
-        object-fit: cover;
-        width: 100%;
-        height: 85vh;
-        background-color: rgba(0, 0, 0, 0.822);
-    }
-    .capa2{
-        position: relative;
-        object-fit: cover;
-        width: 100%;
-        height: 86vh;
-        background-color: rgba(0, 0, 0, 0.822);
-    }
-    #cta{
-        position: absolute;
-        top: 0;
-        min-height: 0px;
-        min-width: 0px;
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        opacity: .3;
-    }
-    .mOpciones{
-        width: 100%;
-        background-color: rgba(24, 23, 23, 0.815)
-    }
-    .nOpciones{
-        list-style-type: none;
-        margin-left: -80px;
-        padding: 0;
-        height: 1050px;
-        overflow: hidden;
-    }
-    #opcImg1,#opcImg2,#opcImg3{
-        width: 400px;
-        height: 280px;
-        opacity: 0.7;
-        border-radius: 15px;
-    }
-    .nOpciones li {
-        position: relative;
-        width: 400px; 
-        margin-top: 100px;
-        float: left;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-left: 3%;
-        font-weight: 550;
-    }
+.separator{
+width: 100%;
+height: 14vh;
+background-image: url(https://cdn.foodandwineespanol.com/2019/05/cafe.jpg);
+opacity: 0.9;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+/*CSS DE OPCIONES EN SECCION 2 (CARDS) */
 
-    .opcion1,.opcion2,.opcion3{
-        color: black;
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.644);
-        height: 700px;
-        border-radius: 20px;
-        font-size: 40px;
-        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.356);
-    }
-    .opcion1:hover{
-        transition: 0.9s;
-        background-color:rgba(0, 0, 0, 0.678);
-        color: white
-    }
-    .opcion2:hover{
-        transition: 0.9s;
-        background-color: rgba(0, 0, 0, 0.678);
-        color: white
-    }
-    
-    .opcion3:hover{
-        transition: 0.9s;
-        background-color: rgba(0, 0, 0, 0.486);
-        color: white
-    }
-    #cafe2{
-        position: absolute;
-        background-attachment: fixed;
-        opacity: 0.2;
-        height: 100%;
-        width: 80%;
-        top: 850px;
-        left: 0px;
-    }
-    #btnOpc1,#btnOpc2,#btnOpc3{
-        position: absolute;
-        border-style: none;
-        border-radius: 5px;
-        color: white;
-        background-color: rgba(165, 42, 42, 0.712);
-        top: 605px;
-        right: 65px;
-        width: 250px;
-        height: 70px;
-    }
-    #btnOpc1:hover{
-        transition: 0.9s;
-        background-color: rgb(165, 42, 42);
-    }
-    #btnOpc2:hover{
-        transition: 0.9s;
-        background-color: rgb(165, 42, 42);
-    }
-    #btnOpc3:hover{
-        transition: 0.9s;
-        background-color: rgb(165, 42, 42);
-    }
-    .hCafe{
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        padding: 0;
-        width: 100%;
-        overflow: hidden;
-    }
-    .hCafe li select{
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        animation-direction: reverse;
-    }
-    .hCafe li {
-        float: left;
-        margin-left: 0px;
-        width: 17%;
-        padding-left: 1px;
-        font-size: 15px;
-    }
-    #tCafe,#tamCafe,#sCafe,#cCafe,#canCafe{
-        margin-top: 0px;
-        margin-left: 0px;
-        color: rgba(255, 255, 255, 0.733);
-        text-align: center;
-        font-size: auto;
-        height: 14vh;
-        width: 100%;
-        letter-spacing: 0.2em;
-        font-weight: 50;
-        background-color: rgba(43, 43, 42, 0.555);
+.homeSection2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+}
+.homeSection2 .card{
+    width: 330px;
+    height: 480px;
+    border-radius: 7px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    overflow: hidden;
+    margin: 50px;
+    margin-top: 70px;
+    text-align: center;
+    transition: all 0.25s
+}
+.homeSection2 .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+.homeSection2 .card img{
+    width: 330px;
+    height: 220px;
+}
+.homeSection2 .card span{
+    font-weight: 600;
+}
+.homeSection2 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.homeSection2 .card a{
+    color: rgba(165, 42, 42, 0.849);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 1s;
+}
+.homeSection2 .card a:hover{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+}
+.container{
+    width: 100%;
+}
+
+
+/* CSS DE SECCION 1 */
+.hCafe{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.hCafe li select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    animation-direction: reverse;
+}
+.hCafe li {
+    float: left;
+    margin-left: 0px;
+    width: 17%;
+    padding-left: 1px;
+    font-size: 15px;
+}
+#tCafe,#tamCafe,#sCafe,#cCafe,#canCafe{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0.733);
+    text-align: center;
+    font-size: auto;
+    height: 14vh;
+    width: 100%;
+    letter-spacing: 0.2em;
+    font-weight: 50;
+    background-color: rgba(43, 43, 42, 0.555);
+}
+#btnOrd{
+    position: relative;
+    font-size: auto;
+    color: rgba(255, 255, 255, 0.616);
+    background-color: rgba(165, 42, 42, 0.849);
+    box-shadow: rgba(0, 0, 0, 0.568);
+    border-width: 0;
+    border-style: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 14vh;
+    left: 1px;
+    font-weight: 50;
+    letter-spacing: 0.2em;
+}
+#btnOrd:hover{
+    transition: 0.9s    ;
+    color: black;
+    background-color: white
+}
+
+.servicios-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.servicios-imagen{
+    border-radius: 15px 0px 0 15px;
+    width: 40%;
+    height: 70vh;
+    background-color: black;
+}
+.servicios-imagen img{
+    border-radius: 15px 0px 0 15px;
+    width: 100%;
+    height: 70vh;
+    opacity: 0.4;
+    background-color: black;
+}
+.servicios-descripcion{
+    border-radius: 0 15px 15px 0px;
+    color: rgba(0, 0, 0, 0.575);
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    box-shadow: 3px 1px 7px 2px rgba(0, 0, 0, 0.3);
+}
+.servicios-descripcion p {
+    margin-top: 8vh;
+    font-size: 60px;
+}
+.servicios-descripcion ul{
+    justify-content: center;
+    list-style: none;
+    margin-top: 5vh;
+}
+.servicios-descripcion li{
+    margin-bottom: 3vh;
+ 
+}
+.servicios-descripcion input{
+    background-color: white;
+    border-radius: 4px;
+    width: 60%;
+    height: 5vh;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+.servicios-descripcion #btn:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width: 768px) {
+    select{
+        visibility: hidden;
     }
     #btnOrd{
-        position: relative;
-        font-size: auto;
-        color: rgba(255, 255, 255, 0.616);
-        background-color: rgba(165, 42, 42, 0.849);
-        box-shadow: rgba(0, 0, 0, 0.568);
-        border-width: 0;
-        border-style: none;
-        border-radius: 3px;
-        width: 100%;
-        height: 14vh;
-        left: 1px;
-        font-weight: 50;
-        letter-spacing: 0.2em;
+        visibility: hidden;
     }
-    #btnOrd:hover{
-        transition: 0.9s    ;
-        color: black;
-        background-color: white
+    .separator{
+        background-image: none;
+        background-color: rgb(19, 17, 17);
+        height: 7vh;
     }
-    @media only screen and (max-width: 1684px) {
-        .nOpciones{
-            height: 1750px;
-        }
-        .nOpciones li{
-            left: 150px;
-            width: 150;
-        }
-        
-    }
-    @media only screen and (max-width: 1114px) {
-        .nOpciones{
-            height: 2550px;
-        }
-        #tCafe,#tamCafe,#sCafe,#cCafe,#canCafe{
-            font-size: 12px;
-        }
-    }
-    @media only screen and (max-width: 1300px) {
-        .nHome li,.btnLogin,.searchBx{
-            visibility: hidden;
-        }
-        #logo{
-            width: 250px;
-            height: 95px;
-            left: 41%;
-        }
-
-    }
-    @media only screen and (max-width: 810px) {
-        .nOpciones{
-            width: 80%;
-            margin-left: 5%;
-            right: 25%;
-            border-radius: 15px;
-    
-        }
-        #opcImg1,#opcImg2,#opcImg3{
-            margin-right: 350px;
-            object-fit: cover;
-            right: 150px;
-            width: 70%;
-            height: 30%;
-
-        }
-        .nOpciones li {
-            width: 100%;
-        }
-        .nOpciones p{
-            width: 70%;
-            margin-left: 0;
-            margin-right: 0px;
-        }
-    
-        .opcion1,.opcion2,.opcion3{
-            color: black;
-            border-radius: 15px;
-            margin-right: 0px;
-            
-        }
-        #btnOpc1,#btnOpc2,#btnOpc3{
-            position: absolute;
-            width: 40%;
-            left: 15%;
-
-        }
-        #tCafe,#tamCafe,#sCafe,#cCafe,#canCafe{
-            font-size: 9px;
-        }
-
-    }
-        
+}

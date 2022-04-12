@@ -65,6 +65,9 @@ const controller = {
 			...req.body,
 			imagen:  products.imagen
 		};
+		if (products.imagen == undefined){
+			res.redirect('/products')
+		}
     
 		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
     products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));

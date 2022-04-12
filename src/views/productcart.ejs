@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <%-include('./partials/header.ejs')%>
-    </head>
-    
+    <link rel=StyleSheet  href="/css/cartStyle.css">
+    <%-include('./partials/head.ejs')%>
     <body>
-        <%-include('./partials/body.ejs')%>
+        <%-include('./partials/navBar.ejs')%>
+        <div class="separator2">
+        </div>
+        <section class="homeSection" >
+            <div class="subsection1">
+                <% for (let i = 0; i < prod2.length; i++){ %>
+                        <div class="cards">
+                            <img src="https://cdn.foodandwineespanol.com/2019/02/destacada_coffee.jpg" alt="">
+                            <span><%= prod2[i] %><br><br></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+                            <div class="toggle-buttons">
+                                <form action="" method="GET">
+                                    <input type="button" name="add" value="+">
+                                </form>
+                                <form action="" method="GET">
+                                    <input type="button" name="minus" value="-">
+                                </form>
+                            </div>
+                        </div>
+                <% } %>
+            </div>
+            <div class="subsection2">
+                <div class="cards2">
+                    <img src="https://mundoclaves.com/wp-content/uploads/2019/10/paypal-logo-1280x720.png" alt="">
+                    <span>Cuenta total<br><br></span>
+                    <% for (let i = 0; i < 6; i++){ %>
+                        <p>1 - $999<br></p>
+                    <% } %> 
+                        <p><br><br></bt>Total - $999<br><br></p>
+                        <form action="" method="GET">
+                            <input type="submit" name="pagar" value="Realizar Pago">
+                        </form>
+                </div>
+            </div>
+        </section>
     </body>
         
-    <footer>
         <%-include('./partials/footer.ejs')%>
-    </footer>
-
 </html>

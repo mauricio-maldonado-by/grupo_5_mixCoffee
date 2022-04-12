@@ -1,25 +1,11 @@
 [
  {
-  "id": 1,
-  "nombre": "Café Negro",
-  "descripcion": "magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam",
-  "precio": 816.55,
-  "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Azul",
-  "descuento": 68,
-  "delivery": "267"
- },
- {
-  "id": "2"
- },
- {
   "id": 3,
   "nombre": "Café sin Azucar",
-  "descripcion": "sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse",
+  "descripcion": "sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui",
   "precio": 213.8,
   "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
+  "imagen": "https://www.cocinayvino.com/wp-content/uploads/2016/09/tazadecafe-1-1200x900.jpg",
   "color": "Azul",
   "descuento": 98,
   "delivery": "75"
@@ -27,24 +13,21 @@
  {
   "id": 4,
   "nombre": "Termo para bebida caliente",
-  "descripcion": "at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non",
+  "descripcion": "at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augu",
   "precio": 960.02,
   "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
   "color": "Rojo",
   "descuento": 39,
   "delivery": "84334"
  },
  {
-  "id": "5"
- },
- {
   "id": 6,
   "nombre": "Café Americano",
-  "descripcion": "praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in",
+  "descripcion": "praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet n",
   "precio": 79.54,
   "categoria": "Vainilla Latte",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
+  "imagen": "https://elpoderdelconsumidor.org/wp-content/uploads/2021/04/cafe.jpg",
   "color": "Rojo",
   "descuento": 58,
   "delivery": "515"
@@ -52,10 +35,10 @@
  {
   "id": 7,
   "nombre": "Café sin Azucar",
-  "descripcion": "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor",
+  "descripcion": "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec",
   "precio": 1034.16,
   "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
+  "imagen": "https://s1.eestatic.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg",
   "color": "Negro",
   "descuento": 7,
   "delivery": "21"
@@ -63,10 +46,10 @@
  {
   "id": 8,
   "nombre": "Termo para bebida caliente",
-  "descripcion": "consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+  "descripcion": "consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non inorci luctus et ultrices",
   "precio": 960.92,
   "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
+  "imagen": "https://www.semana.com/resizer/rH4_rbif0fmvefux9P8yPeuPOhA=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/EMVX56K62JCS7J3BH2M4BA33RU.jpg",
   "color": "Rojo",
   "descuento": 98,
   "delivery": "165"
@@ -74,10 +57,10 @@
  {
   "id": 9,
   "nombre": "Café Negro",
-  "descripcion": "morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam",
+  "descripcion": "morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien ",
   "precio": 780.37,
   "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
+  "imagen": "https://www.lavanguardia.com/files/image_948_465/uploads/2020/12/14/5fd7240cadcfe.jpeg",
   "color": "Gris",
   "descuento": 94,
   "delivery": "9"
@@ -88,7 +71,7 @@
   "descripcion": "praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget",
   "precio": 200.71,
   "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
+  "imagen": "https://www.infobae.com/new-resizer/TN2f7yl676RaKqAxBu7CyZ-W0Es=/1200x900/filters:format(webp):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/OVLFOF7CGBAJFPLPNT5N3M77VY.jpg",
   "color": "Azul",
   "descuento": 21,
   "delivery": "4"
@@ -96,10 +79,10 @@
  {
   "id": 11,
   "nombre": "Café sin Azucar",
-  "descripcion": "at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum",
+  "descripcion": "at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id lipendisse orum",
   "precio": 33.96,
   "categoria": "Late machiato",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
+  "imagen": "https://as01.epimg.net/deporteyvida/imagenes/2018/06/19/portada/1529402043_039778_1529402207_noticia_normal.jpg",
   "color": "Azul",
   "descuento": 16,
   "delivery": "414"
@@ -110,7 +93,7 @@
   "descripcion": "ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu",
   "precio": 814.13,
   "categoria": "Vainilla Latte",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
+  "imagen": "https://www.gob.mx/cms/uploads/article/main_image/104597/imagenes_Mesa_de_trabajo_1.jpg",
   "color": "Negro",
   "descuento": 54,
   "delivery": "74"
@@ -118,10 +101,10 @@
  {
   "id": 13,
   "nombre": "Café Negro",
-  "descripcion": "pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum",
+  "descripcion": "pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu mstibulum",
   "precio": 404.69,
   "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
+  "imagen": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-coffee-in-cup-royalty-free-image-1568292874.jpg?resize=480:*",
   "color": "Azul",
   "descuento": 5,
   "delivery": "28"
@@ -129,10 +112,10 @@
  {
   "id": 14,
   "nombre": "Café Americano",
-  "descripcion": "eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio",
+  "descripcion": "eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequt ut nulla setis odio",
   "precio": 157.49,
   "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
+  "imagen": "https://s1.eestatic.com/2015/03/11/cocinillas/cocinillas_17258418_116112033_1706x960.jpg",
   "color": "Azul",
   "descuento": 98,
   "delivery": "95"
@@ -143,7 +126,7 @@
   "descripcion": "platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla",
   "precio": 670.77,
   "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
+  "imagen": "https://saboryestilo.com.mx/wp-content/uploads/elementor/thumbs/recetas-de-cocina-cafe-cortado-opfhtdsxg5c55dsm4zyc01v88feskg3f1d2axwlglc.jpg",
   "color": "Negro",
   "descuento": 81,
   "delivery": "2141"
@@ -154,7 +137,7 @@
   "descripcion": "faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse",
   "precio": 1023.78,
   "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
+  "imagen": "https://www.elclaustro.edu.mx/claustronomia/media/k2/items/cache/d7a332411e14769f300879cf8b1d4da6_XL.jpg",
   "color": "Azul",
   "descuento": 26,
   "delivery": "092"
@@ -162,263 +145,12 @@
  {
   "id": 17,
   "nombre": "Café Negro",
-  "descripcion": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla",
+  "descripcion": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorperlla",
   "precio": 335.07,
   "categoria": "Late machiato",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
+  "imagen": "https://statics-cuidateplus.marca.com/cms/images/cafe-salud.jpg",
   "color": "Gris",
   "descuento": 32,
   "delivery": "759"
- },
- {
-  "id": 18,
-  "nombre": "Café Americano",
-  "descripcion": "vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut",
-  "precio": 439.6,
-  "categoria": "Vainilla Latte",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Rojo",
-  "descuento": 66,
-  "delivery": "5524"
- },
- {
-  "id": 19,
-  "nombre": "Café sin Azucar",
-  "descripcion": "velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui",
-  "precio": 587.77,
-  "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Rojo",
-  "descuento": 79,
-  "delivery": "15946"
- },
- {
-  "id": 20,
-  "nombre": "Termo para bebida caliente",
-  "descripcion": "viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae",
-  "precio": 1032.55,
-  "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Azul",
-  "descuento": 67,
-  "delivery": "8661"
- },
- {
-  "id": 21,
-  "nombre": "Café Negro",
-  "descripcion": "augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt",
-  "precio": 490.23,
-  "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Azul",
-  "descuento": 84,
-  "delivery": "099"
- },
- {
-  "id": 22,
-  "nombre": "Café Americano",
-  "descripcion": "ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae",
-  "precio": 68.07,
-  "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Rojo",
-  "descuento": 22,
-  "delivery": "981"
- },
- {
-  "id": 23,
-  "nombre": "Café sin Azucar",
-  "descripcion": "pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla",
-  "precio": 158.83,
-  "categoria": "Late machiato",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Gris",
-  "descuento": 28,
-  "delivery": "6"
- },
- {
-  "id": 24,
-  "nombre": "Termo para bebida caliente",
-  "descripcion": "orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in",
-  "precio": 1112.03,
-  "categoria": "Vainilla Latte",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Gris",
-  "descuento": 94,
-  "delivery": "0"
- },
- {
-  "id": 25,
-  "nombre": "Café Negro",
-  "descripcion": "suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
-  "precio": 480.49,
-  "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Rojo",
-  "descuento": 90,
-  "delivery": "937"
- },
- {
-  "id": 26,
-  "nombre": "Café Americano",
-  "descripcion": "libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi",
-  "precio": 514.18,
-  "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Azul",
-  "descuento": 65,
-  "delivery": "1"
- },
- {
-  "id": 27,
-  "nombre": "Café sin Azucar",
-  "descripcion": "massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
-  "precio": 954.91,
-  "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Negro",
-  "descuento": 69,
-  "delivery": "8595"
- },
- {
-  "id": 28,
-  "nombre": "Termo para bebida caliente",
-  "descripcion": "iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero",
-  "precio": 363,
-  "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Negro",
-  "descuento": 87,
-  "delivery": "728"
- },
- {
-  "id": 29,
-  "nombre": "Café Negro",
-  "descripcion": "sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede",
-  "precio": 657.86,
-  "categoria": "Late machiato",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Azul",
-  "descuento": 82,
-  "delivery": "7400"
- },
- {
-  "id": 30,
-  "nombre": "Café Americano",
-  "descripcion": "nibh ligula nec sem duis aliquam convallis nunc proin at",
-  "precio": 421.21,
-  "categoria": "Vainilla Latte",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Negro",
-  "descuento": 10,
-  "delivery": "54"
- },
- {
-  "id": 31,
-  "nombre": "Café sin Azucar",
-  "descripcion": "sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien",
-  "precio": 1070.75,
-  "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Negro",
-  "descuento": 39,
-  "delivery": "6491"
- },
- {
-  "id": 32,
-  "nombre": "Termo para bebida caliente",
-  "descripcion": "sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis",
-  "precio": 942.4,
-  "categoria": "cafe late",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Azul",
-  "descuento": 7,
-  "delivery": "14"
- },
- {
-  "id": 33,
-  "nombre": "Café Negro",
-  "descripcion": "massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer",
-  "precio": 985.06,
-  "categoria": "espresso americano",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Rojo",
-  "descuento": 37,
-  "delivery": "5"
- },
- {
-  "id": 34,
-  "nombre": "Café Americano",
-  "descripcion": "velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
-  "precio": 93.22,
-  "categoria": "moka",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Rojo",
-  "descuento": 62,
-  "delivery": "1225"
- },
- {
-  "id": 35,
-  "nombre": "Café sin Azucar",
-  "descripcion": "mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel",
-  "precio": 782.84,
-  "categoria": "Late machiato",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\DifusorOferta.jpg",
-  "color": "Azul",
-  "descuento": 61,
-  "delivery": "36"
- },
- {
-  "id": 36,
-  "nombre": "Termo para bebida caliente",
-  "descripcion": "magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient",
-  "precio": 504.77,
-  "categoria": "Vainilla Latte",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\AspiradoraOferta.jpg",
-  "color": "Gris",
-  "descuento": 54,
-  "delivery": "4"
- },
- {
-  "id": 37,
-  "nombre": "Café Negro",
-  "descripcion": "ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit",
-  "precio": 1038.28,
-  "categoria": "Alimento",
-  "imagen": "C:\\Users\\iván\\Desktop\\Atseupserpractica\\proyecto-integrador\\grupo_5_Lumiere\\public\\img\\SecadorOferta.jpg",
-  "color": "Rojo",
-  "descuento": 23,
-  "delivery": "90675"
- },
- {
-  "id": "38",
-  "nombre": "Café Turco",
-  "descripcion": "gsdfgsdgsdfgsdgsdgfsd",
-  "precio": "21241241",
-  "descuento": "23232",
-  "delivery": "1221",
-  "categoria": "alimento",
-  "color": "Gris"
- },
- {
-  "id": "39",
-  "nombre": "Café Turco",
-  "descripcion": "sfgsdfgsdgdgsdgsdfgsdf",
-  "precio": "12343",
-  "descuento": "124",
-  "delivery": "121",
-  "categoria": "moka",
-  "color": "black"
- },
- {
-  "id": "40",
-  "nombre": "Café Veracruz",
-  "descripcion": "asdsafasdfasf",
-  "precio": "32456",
-  "descuento": "212",
-  "delivery": "1234",
-  "categoria": "moka",
-  "color": "red",
-  "imagen": "1648695252482-opc3.jpg"
  }
 ]
