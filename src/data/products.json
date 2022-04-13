@@ -420,5 +420,16 @@
   "categoria": "moka",
   "color": "red",
   "imagen": "1648695252482-opc3.jpg"
+ },
+ {
+  "id": "401",
+  "nombre": "Café Turco",
+  "descripcion": "sfdasfdsaf",
+  "precio": "233423",
+  "descuento": "122",
+  "delivery": "10",
+  "categoria": "latte",
+  "color": "black",
+  "image": "1649645789382-1648695510842-1648694905252-opc2.jpg"
  }
 ]

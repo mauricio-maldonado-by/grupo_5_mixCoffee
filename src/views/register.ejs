@@ -1,0 +1,51 @@
+<!-- <form action="action_page.php" method="POST" style="border:1px solid #ccc">
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('./partials/headReg.ejs', {title: 'Agregando Producto'})%>
+
+ <form action="/register" method="POST" style="border:1px solid #ccc">
+
+    <div class="wrapper fadeInDown" id="formContent">
+      <h1>Registrarse</h1>
+      <p>Por favor llena esta forma para poder obtener una cuenta en el sitio.</p>
+      <hr>
+  
+      <label for="firstName"><b>Nombre</b></label>
+      <input type="text" placeholder="Enter first name" name="firstName" required>    
+
+      <label for="lastName"><b>Apellido</b></label>
+      <input type="text" placeholder="Enter last name" name="lastName" required>    
+ 
+      <label for="email"><b>Correo electronico</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat"><b>Repetir Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <div class="col-12 col-md-6">
+        <label for="category" class="form-label"><b>Categoría</b></label>
+        <select name="categoria" id="category" class="form-input">
+            <option value="">Elige</option>
+            <option value="user">Usuario</option>
+            <option value="guest">Invitado</option>
+            <option value="admin">Administrador</option>
+        </select>
+    </div>
+      
+    
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recordarme en este equipo
+      </label>
+  
+      <p>Cuando creas tu cuenta aceptas que te gusta mucho el cafe</p>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancelar</button>
+        <button type="submit" class="signupbtn">Registrarme</button>
+      </div>
+    </div>
+  </form>
