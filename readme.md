@@ -17,7 +17,6 @@ El servicio al cliente será uno de nuestros principales pilares y tendremos un 
 
 Integrantes
 
-Monica Ramirez
+Ruben Hermosillo
 Pedro Magaña
 Mauricio Maldonado
-Ruben Hermosillo
