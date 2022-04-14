@@ -5,6 +5,7 @@ const app = express();
 const mainRouter = require('./src/routers/main'); 
 const productsRouter = require('./src/routers/products');
 const methodOverride = require('method-override'); 
+const { Session } = require('express-session');
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './src/views'));
