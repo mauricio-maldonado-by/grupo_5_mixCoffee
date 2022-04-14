@@ -1,0 +1,15 @@
+<html>
+    <link rel=StyleSheet  href="/css/homeStyle.css">
+    <body>
+        <h1>Productos</h1>
+        <% for (let i = 0; i < prod.length; i++){ %>
+            <section class="homeSection">
+                <div class="card">
+                    <img src="https://www.ulabox.com/blog/wp-content/uploads/2015/06/1-pago_seguro.png" alt="">
+                    <span><%= prod[i] %><br><br></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, temporibus.<br><br></p>
+                    <a href="#">Leer mas</a>
+                </div>
+        <% } %>
+    </body>
+</html>
