@@ -41,14 +41,14 @@ const controller = {
     },
 
     create: (req, res) => {
-		res.render('register')
+		res.render('/register')
 	},
 
 	newRecord:  (req, res) => {
         const {body} = req;
         let errors = validationResult(req);
         if (!errors.isEmpty()) {
-            res.render('register', {errors: errors.array() });
+            res.render('/register', {errors: errors.array() });
         }else {
             req.session.firstName = req.body.firstName;
             req.session.lastName = req.body.lastName;
