@@ -16,6 +16,9 @@ router.get('/', mainController.main);
 router.get ('/home', mainController.main);
 router.get('/carrito', mainController.carrito);
 router.get('/login', mainController.login);
+
+router.get('/carrito2', mainController.carrito2);
+
 //router.post('/login', validation, mainController.login);
 
 

@@ -7,8 +7,6 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const usersFilePath = path.join(__dirname, '../data/users.json');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 
-
-
 const controller = {
    
     main: (req, res) => {  
@@ -30,7 +28,6 @@ const controller = {
         res.render('productCart', {'prod2': prod2});
     },
      login: (req, res) => {  
-        
         res.render(path.join(__dirname, '../views/login.ejs'));
         check('name').inLenght({min: 1}).withMessage('Debe ingresar un nombre');
         check('name').inLenght({min: 1}).withMessage('Debe ingresar un nombre');
@@ -39,6 +36,15 @@ const controller = {
     registro: (req, res) => {  
         res.sendFile(path.join(__dirname, '../views/register.ejs'));
     },
+    carrito2:(req,res)=>{
+        let prod = [
+            'Producto 1',
+            'Producto 2',
+            'Producto 3',
+            'Producto 4',
+        ]
+        res.render('carrito2', {'prod': prod})
+    }
 
     create: (req, res) => {
 		res.render('/register')

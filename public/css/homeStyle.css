@@ -32,7 +32,185 @@ background-attachment: fixed;
 background-size: 100%;
 }
 /*CSS DE OPCIONES EN SECCION 2 (CARDS) */
+.homeSection2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+}
+.homeSection2 .card{
+    width: 330px;
+    height: 480px;
+    border-radius: 7px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    overflow: hidden;
+    margin: 50px;
+    margin-top: 70px;
+    text-align: center;
+    transition: all 0.25s
+}
+.homeSection2 .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 
+}
+.homeSection2 .card img{
+    width: 330px;
+    height: 220px;
+}
+.homeSection2 .card span{
+    font-weight: 600;
+}
+.homeSection2 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.homeSection2 .card a{
+    color: rgba(165, 42, 42, 0.849);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 1s;
+}
+.homeSection2 .card a:hover{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+}
+.container{
+    width: 100%;
+}
+
+
+/* CSS DE SECCION 1 */
+.hCafe{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.hCafe li select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    animation-direction: reverse;
+}
+.hCafe li {
+    float: left;
+    margin-left: 0px;
+    width: 17%;
+    padding-left: 1px;
+    font-size: 15px;
+}
+#tCafe,#tamCafe,#sCafe,#cCafe,#canCafe{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0.733);
+    text-align: center;
+    font-size: auto;
+    height: 14vh;
+    width: 100%;
+    letter-spacing: 0.2em;
+    font-weight: 50;
+    background-color: rgba(43, 43, 42, 0.555);
+}
+#btnOrd{
+    position: relative;
+    font-size: auto;
+    color: rgba(255, 255, 255, 0.616);
+    background-color: rgba(165, 42, 42, 0.849);
+    box-shadow: rgba(0, 0, 0, 0.568);
+    border-width: 0;
+    border-style: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 14vh;
+    left: 1px;
+    font-weight: 50;
+    letter-spacing: 0.2em;
+}
+#btnOrd:hover{
+    transition: 0.9s    ;
+    color: black;
+    background-color: white
+}
+
+.servicios-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.servicios-imagen{
+    border-radius: 15px 0px 0 15px;
+    width: 40%;
+    height: 70vh;
+    background-color: black;
+}
+.servicios-imagen img{
+    border-radius: 15px 0px 0 15px;
+    width: 100%;
+    height: 70vh;
+    opacity: 0.4;
+    background-color: black;
+}
+.servicios-descripcion{
+    border-radius: 0 15px 15px 0px;
+    color: rgba(0, 0, 0, 0.575);
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    box-shadow: 3px 1px 7px 2px rgba(0, 0, 0, 0.3);
+}
+.servicios-descripcion p {
+    margin-top: 8vh;
+    font-size: 60px;
+}
+.servicios-descripcion ul{
+    justify-content: center;
+    list-style: none;
+    margin-top: 5vh;
+}
+.servicios-descripcion li{
+    margin-bottom: 3vh;
+ 
+}
+.servicios-descripcion input{
+    background-color: white;
+    border-radius: 4px;
+    width: 60%;
+    height: 5vh;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+.servicios-descripcion #btn:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width: 768px) {
+    select{
+        visibility: hidden;
+/*
 .homeSection2{
     display: flex;
     width: 100%;
@@ -310,6 +488,9 @@ footer{
         letter-spacing: 0.2em;
         font-weight: 50;
         background-color: rgba(43, 43, 42, 0.555);
+
+      */
+      
     }
     #btnOrd{
         visibility: hidden;
